@@ -1,6 +1,6 @@
-# Tagesschau Acquisition
+# Tagesschau Acquisition 2023
 
-In this project "Tagesschau Acquisition", our team of four students did some data acquisition on the German news website "tagesschau.de". Their website offers an API for their news, and we downloaded this data in 5 min. intervals for a duration of 1 week.
+In this project "Tagesschau Acquisition", our team of four students did some data acquisition on the German news website "tagesschau.de" in the year 2023. Their website offers an API for their news, and we downloaded this data in 5 min. intervals for a duration of 1 week.
 
 ## System architecture
 ![Systemarchitecture.png](Systemarchitecture.png)
