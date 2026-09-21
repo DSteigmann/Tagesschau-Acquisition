@@ -16,7 +16,7 @@ We used `crontab` for executing the julia script in a scheduled way. Make sure y
 ## How to use this project
 
 1. `git clone` the repository
-2. Change into the new folder `group15-acquisition`
+2. Change into the new folder `tagesschau-acquisition`
 3. You can also add your telegram bot data to the `src/telegram_api.jl`. Here you can specify the bot token and the chat_id the bot will send its data to. This bot will inform you about the state of 
 gathering data.
 4. Execute the the main script using `julia src/main.jl`
