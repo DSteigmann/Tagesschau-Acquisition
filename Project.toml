@@ -1,0 +1,19 @@
+name = "group15acquisition"
+uuid = "3f409e92-4178-49ab-9dc9-4a1d396e873b"
+authors = ["Dimitri Steigmann <dimitri.steigmann@tuhh.de>", "Felix Siegers <felix.siegers@tuhh.de>", "Kolya Ruppel <kolya.ruppel@tuhh.de>", "Kateryna Makarova <kateryna.makarova@tuhh.de"]
+version = "1.0.1"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Libz = "2ec943e9-cfe8-584d-b93d-64dcb6d567b7"
+Telegram = "1da6f4ae-116c-4c38-8ee9-19974ff3601d"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+TranscodingStreams = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

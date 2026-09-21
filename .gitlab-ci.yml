@@ -1,0 +1,34 @@
+#we are using this file for
+#running tests and the continuous integration
+
+image: julia:latest
+
+before_script:
+#  - apt-get -qq update; apt-get -y install git
+  - julia --project=@. -e "import Pkg; Pkg.build()"
+
+
+stages:
+  - test
+  - program-run
+
+variables:
+  JULIA_PROJECT: .
+
+test:
+  stage: test
+  script:
+    - julia --color=yes --check-bounds=yes -e 'using Pkg; Pkg.instantiate(); Pkg.test()'
+  tags:
+    - test2
+  except:
+    - schedules
+
+program-run:
+  stage: program-run
+  script:
+    - julia src/main.jl
+  tags:
+    - test2
+  only:
+    - schedules
