@@ -1,20 +1,6 @@
 # Tagesschau Acquisition
 
-WELCOME TO OUR PROJECT "TAGESSCHAU ACQUISITION"
-
-In the next 4 weeks we will try to make some data acquisition on tagesschau.de.
-
-They offer an API for their news, and we will download this data in 5 min. intervals
-for about 1 week. 
-
-Our work for the system architecture design is here:
-https://drive.google.com/file/d/1voO51G4Ze-2p_UK1mqm_GRucGd8ZDhQT/view?usp=sharing
-
-Our team:
-Felix Siegers,
-Kateryna Makarova,
-Dimitri Steigmann,
-Kolya Ruppel
+In this project "Tagesschau Acquisition", our team of four students did some data acquisition on the German news website "tagesschau.de". Their website offers an API for their news, and we will downloaded this data in 5 min. intervals for a duration of 1 week.
 
 ## Systemarchitecture
 ![Systemarchitecture.png](Systemarchitecture.png)
