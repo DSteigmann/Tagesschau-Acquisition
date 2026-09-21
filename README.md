@@ -1,4 +1,4 @@
-# Group15 Acquisition
+# Tagesschau Acquisition
 
 WELCOME TO OUR PROJECT "TAGESSCHAU ACQUISITION"
 
