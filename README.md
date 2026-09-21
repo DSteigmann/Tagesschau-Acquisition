@@ -1,6 +1,6 @@
 # Tagesschau Acquisition
 
-In this project "Tagesschau Acquisition", our team of four students did some data acquisition on the German news website "tagesschau.de". Their website offers an API for their news, and we will downloaded this data in 5 min. intervals for a duration of 1 week.
+In this project "Tagesschau Acquisition", our team of four students did some data acquisition on the German news website "tagesschau.de". Their website offers an API for their news, and we downloaded this data in 5 min. intervals for a duration of 1 week.
 
 ## Systemarchitecture
 ![Systemarchitecture.png](Systemarchitecture.png)
